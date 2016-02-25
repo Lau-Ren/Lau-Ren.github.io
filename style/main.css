@@ -1,0 +1,60 @@
+
+html, body, p , ul, i, a {
+ font-family: 'Roboto', sans-serif;
+ width:100%;
+ text-decoration: none;
+list-style: none;
+color: black;
+}
+
+
+.lauren{
+	display: block;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 300px;
+
+}
+.blogHeading {
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10em;
+	text-align: center;
+	
+
+}
+
+.container{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+}
+
+.container ul li a:hover {
+border-bottom: thin solid black;
+
+}
+
+.container ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	
+}
+
+.container ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+.blogBody {
+padding-left: 50px;
+
+}
