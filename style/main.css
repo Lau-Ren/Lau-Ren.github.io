@@ -44,9 +44,9 @@ nav ul li {
     transform: rotate(90deg);
     translate(-50%,0);
     display: block;
-    bottom: 50%;
+    bottom: 75%;
     height: 2.5rem;
-        position: absolute;
+        position: fixed;
     right: 0;
     width: 2.5rem;
     line-height: 2.5rem;
@@ -70,18 +70,23 @@ nav ul li {
 	
 
 }
+
+.empty {
+height: 400px;	
+	
+
+}
 .container{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
-	
 }
 
 .container.blogContent{
 	
 	padding-left: 100px;
-
+padding-bottom: 20px;
 }
 
 ul li a:hover {
@@ -106,12 +111,20 @@ border-bottom: thin solid black;
 
 .blogBody {
 padding-left: 50px;
+padding-right: 50px;
+
 
 }
 
-footer ul li {
-		display: inline-block;
-	}
+footer {
+	display: block;
+	/*position: absolute;*/
+	bottom: 10px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100% ;
+}
 
 footer ul {
 	margin: 0;
@@ -119,21 +132,6 @@ footer ul {
 	text-align: center;
 	
 }
-
-
-
-footer {
-
-	position: absolute;
-	bottom: 20px;
-
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100% ;
-
-
-	
-}
-
-
+footer ul li {
+		display: inline-block;
+	}
