@@ -12,12 +12,15 @@ html, body, p , ul, i, a {
 
 
 nav {
-width: 75%;
-
-text-align: right;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
 
 }
-
+nav ul {
+padding: 0px;
+}
 nav ul li {
 
 	display: inline-block;
@@ -26,7 +29,7 @@ nav ul li {
 
 .logo {
 	float: left;
-	width: 25%;
+	width: 20%;
 	max-width: 200px;
 }
 .lauren{
@@ -34,6 +37,19 @@ nav ul li {
 	width: 100%;
 	border-radius: 300px;
 
+}
+
+
+.siteIndex {
+    transform: rotate(90deg);
+    translate(-50%,0);
+    display: block;
+    bottom: 50%;
+    height: 2.5rem;
+        position: absolute;
+    right: 0;
+    width: 2.5rem;
+    line-height: 2.5rem;
 }
 .blogHeading {
 	display: block;
@@ -58,7 +74,7 @@ nav ul li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 75%;
+	width: 70%;
 	
 }
 
