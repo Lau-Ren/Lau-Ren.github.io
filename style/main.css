@@ -1,36 +1,61 @@
 
 html, body, p , ul, i, a {
- font-family: 'Roboto', sans-serif;
- width:100%;
- text-decoration: none;
-list-style: none;
-color: black;
+	font-family: 'Roboto', sans-serif;
+	width:100%;
+	text-decoration: none;
+	list-style: none;
+	color: black;
 }
 
 
+nav {
+	width: 75%;
+
+	text-align: right;
+
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+.logo {
+	float: left;
+	width: 25%;
+	max-width: 200px;
+
+}
 .lauren{
 	display: block;
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
 	border-radius: 300px;
 
 }
 .blogHeading {
-		display: block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 10em;
+	width: 75% ;
 	text-align: center;
 	
 
 }
 
+.blogHeading p {
+	font-family: 'times new roman';
+	font-style: italic;
+	font-size: 42px;
+
+
+	
+
+}
 .container{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 75%;
 
 }
 
