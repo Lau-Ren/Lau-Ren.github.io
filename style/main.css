@@ -59,6 +59,12 @@ nav ul li {
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
+	
+}
+
+.container.blogContent{
+	
+	padding-left: 100px;
 
 }
 
