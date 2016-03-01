@@ -8,8 +8,13 @@ html, body, p , ul, i, a {
 
 }
 
+ul li a:hover {
+	border-bottom: thin solid black;
+}
 
-
+/*------------------------------------*\
+#header
+\*------------------------------------*/
 
 nav {
 	width: 70%;
@@ -18,64 +23,62 @@ nav {
 	text-align: right;
 
 }
-nav ul {
-padding: 0px;
-}
-nav ul li {
 
-	display: inline-block;
-	position: relative;
-}
+	nav ul {
+		padding: 0px;
+	}
+
+		nav ul li {
+			display: inline-block;
+			position: relative;
+		}
 
 .logo {
 	float: left;
 	width: 20%;
 	max-width: 200px;
 }
-.lauren{
+
+	.lauren{
+		display: block;
+		width: 100%;
+		border-radius: 300px;
+	}
+
+.site-index {
+	transform: rotate(90deg);
+	translate(-50%,0);
 	display: block;
-	width: 100%;
-	border-radius: 300px;
-
+	bottom: 75%;
+	height: 2.5rem;
+	position: fixed;
+	right: 0;
+	width: 2.5rem;
+	line-height: 2.5rem;
 }
 
+/*------------------------------------*\
+#content
+\*------------------------------------*/
 
-.siteIndex {
-    transform: rotate(90deg);
-    translate(-50%,0);
-    display: block;
-    bottom: 75%;
-    height: 2.5rem;
-        position: fixed;
-    right: 0;
-    width: 2.5rem;
-    line-height: 2.5rem;
-}
-.blogHeading {
+.blog-heading {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75% ;
 	text-align: center;
-	
-
 }
 
-.blogHeading p {
-	font-family: 'Times New Roman';
-	font-style: italic;
-	font-size: 42px;
-
-
-	
-
-}
+	.blog-heading p {
+		font-family: 'Times New Roman';
+		font-style: italic;
+		font-size: 42px;
+	}
 
 .empty {
-height: 400px;	
-	
-
+	height: 400px;	
 }
+
 .container{
 	display: block;
 	margin-left: auto;
@@ -83,22 +86,17 @@ height: 400px;
 	width: 70%;
 }
 
-.container.blogContent{
-	
-	padding-left: 100px;
-padding-bottom: 20px;
-}
+	.container.blogContent{
+		padding-left: 100px;
+		padding-bottom: 20px;
+	}
 
-ul li a:hover {
-border-bottom: thin solid black;
 
-}
 
 .container ul {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	
 }
 
 .container ul li {
@@ -109,16 +107,18 @@ border-bottom: thin solid black;
 }
 
 
-.blogBody {
-padding-left: 50px;
-padding-right: 50px;
-
-
+.blog-body {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
+
+
+/*------------------------------------*\
+#footer
+\*------------------------------------*/
 footer {
 	display: block;
-	/*position: absolute;*/
 	bottom: 10px;
 	padding-top: 20px;
 	margin-left: auto;
@@ -126,12 +126,13 @@ footer {
 	width: 100% ;
 }
 
-footer ul {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	
-}
-footer ul li {
-		display: inline-block;
+	footer ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+
 	}
+	
+		footer ul li {
+			display: inline-block;
+		}
