@@ -11,6 +11,11 @@ html, body, p , ul, i, a {
 
 }
 
+a.current {
+border-bottom: thin solid black;
+	
+}
+
 li a:hover {
 	border-bottom: thin solid black;
 }
