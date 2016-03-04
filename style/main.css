@@ -11,7 +11,7 @@ html, body, p , ul, i, a {
 
 }
 
-ul li a:hover {
+li a:hover {
 	border-bottom: thin solid black;
 }
 
@@ -19,7 +19,6 @@ ul li a:hover {
 .wrapper {
 min-height: 400px;
 position: relative;
-background-color: blue;
 }
 /*------------------------------------*\
 #header
@@ -43,6 +42,7 @@ nav {
 		}
 
 .logo {
+	padding: 5px;
 	float: left;
 	width: 20%;
 	max-width: 200px;
@@ -64,6 +64,7 @@ nav {
 	right: 0;
 	width: 2.5rem;
 	line-height: 2.5rem;
+	padding: 2px;
 }
 
 /*------------------------------------*\
@@ -128,8 +129,8 @@ nav {
 #footer
 \*------------------------------------*/
 footer {
-	
-height: 100%
+	width: 100%
+
 }
 
 	footer ul {
