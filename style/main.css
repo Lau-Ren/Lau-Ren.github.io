@@ -116,7 +116,7 @@ nav {
 .blog-body {
 	padding-left: 50px;
 	padding-right: 50px;
-	min-height: 323px;
+	min-height: auto;
 }
 
 
