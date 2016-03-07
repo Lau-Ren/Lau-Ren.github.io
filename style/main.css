@@ -1,5 +1,71 @@
+
+div {
+
+	border: black;
+}
+
+li a:hover {
+	border-bottom: thin solid black;
+}
+/*navagation*/
+nav {
+	text-align: right;
+
+}
+
+.site-index {
+	transform: rotate(90deg);
+	translate(-50%,0);
+	display: block;
+	bottom: 75%;
+	height: 2.5rem;
+	position: fixed;
+	right: 0;
+	width: 2.5rem;
+	line-height: 2.5rem;
+	padding: 2px;
+}
+
+/*nav ul {
+	padding: 0px;
+}*/
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+}
+
+
+
+.profile-pic{
+
+	max-width: 211px;
+
+}
+
 .profile-pic img {
 	display: block;
 	width: 100%;
 	border-radius: 300px;
+
+}
+
+
+
+
+
+
+/*footer*/
+
+
+footer ul {
+	position: fixed;
+	margin: 10px;
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+footer ul li {
+	display: inline-block;
 }
