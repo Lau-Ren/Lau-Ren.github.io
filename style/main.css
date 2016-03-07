@@ -60,14 +60,17 @@ nav ul li {
 .profile-pic{
 
 	max-width: 211px;
-
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%
 }
 
 .profile-pic img {
 	display: block;
 	width: 100%;
 	border-radius: 300px;
-
+	
+	
 }
 
 
