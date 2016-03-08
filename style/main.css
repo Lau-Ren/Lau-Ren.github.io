@@ -1,7 +1,6 @@
 html, body, p , ul, i, a {
-	/*font-family: 'Roboto', sans-serif;
-	width:100%;
-*/	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;/*	width:100%;*/
+	text-decoration: none;
 	list-style: none;
 	color: black;
 
@@ -18,7 +17,9 @@ html, body, p , ul, i, a {
 }
 
 li a:hover {
-	border-bottom: thin solid black;
+	border-bottom: thin solid gray ;
+	color: rgb(187, 187, 191);
+
 }
 /*navagation*/
 nav {
@@ -68,12 +69,20 @@ nav ul li {
 .profile-pic img {
 	display: block;
 	width: 100%;
-	border-radius: 300px;
+	border-radius: 1000px;
 	
 	
 }
 
+.social-links img {
+display: inline-block;
+padding: 2px;
+max-width: 30px;
 
+
+
+
+}
 
 
 
@@ -86,7 +95,7 @@ position: relative;
     bottom: 0;
 /*    height: 100px;
 */    width: 100%;
-background: orange;
+background: rgb(251,243,203);
 }
 footer ul {
 	/*position: fixed;*/
