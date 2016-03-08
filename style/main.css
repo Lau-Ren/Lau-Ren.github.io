@@ -6,7 +6,7 @@ html, body, p , ul, i, a {
 
 }
 
-.name-heading{
+.heading{
 	font-family: 'Times New Roman';
     font-style: italic;
     letter-spacing: .2rem;
@@ -94,12 +94,11 @@ background-color: rgb(213, 242, 219);
 /*footer*/
 
 footer {
-position: relative;
-  left: 0;
-    bottom: 0;
-/*    height: 100px;
-*/    width: 100%;
-background: rgb(251,243,203);
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgb(251,243,203);
 }
 footer ul {
 	/*position: fixed;*/
@@ -111,3 +110,52 @@ footer ul {
 footer ul li {
 	display: inline-block;
 }
+
+/* blog contents*/
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: gray;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
