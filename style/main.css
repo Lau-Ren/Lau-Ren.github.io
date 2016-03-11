@@ -138,6 +138,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	background: rgb(251,243,203);
+	padding: 10px;
 }
 footer ul {
 	/*position: fixed;*/
@@ -173,6 +174,10 @@ padding: 5%;
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+}
+
+.flex-item a {
+
 }
 
 .flex-item {
