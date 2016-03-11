@@ -49,7 +49,8 @@ margin-top: 2rem;
 	right: 0;
 	width:4rem;
 	line-height: 2.5rem;
-	padding: 2px;
+	
+	z-index: 99;
 }
 
 article.index-drawer{
@@ -161,11 +162,12 @@ footer ul li {
 }
 
 .flex-item {
+	background-color: rgb(187, 187, 191);
 	border-top: black;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+  padding: 5%;
+  width: 50%;
+  
+  margin-top: 5%;
   
 
  
@@ -175,7 +177,23 @@ footer ul li {
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+.flex-item {
+	background-color: rgb(187, 187, 191);
+	border-top: black;
+  padding: 5%;
+  width: 33%;
+  
+  margin-top: 5%;
+  
+
+ 
+  text-align: center;
+}
+
+
+
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {}
