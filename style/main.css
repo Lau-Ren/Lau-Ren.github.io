@@ -62,7 +62,7 @@ margin-top: 2rem;
 
 article.index-drawer{
 	display: none;
-	bottom: 35%;
+	bottom: 20%;
 	position: fixed;
 	right: 25px;
 	background-color: rgb(187, 187, 191);
