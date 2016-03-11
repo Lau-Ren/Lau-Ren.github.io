@@ -6,6 +6,13 @@ html, body, p , ul, i, a {
 
 }
 
+em{
+font-weight: bold;
+
+
+
+}
+
 .heading{
 	font-family: 'Times New Roman';
     font-style: italic;
@@ -145,6 +152,13 @@ footer ul li {
 
 /* blog contents*/
 
+article.blog img{
+width: 75%;
+padding: 5%;
+
+}
+
+
 
 .flex-container {
   padding: 0;
@@ -191,6 +205,12 @@ footer ul li {
   text-align: center;
 }
 
+article.blog img{
+	display: inline-block;
+	max-width: 210px;
+	padding: 5%;
+
+}
 
 
 }
