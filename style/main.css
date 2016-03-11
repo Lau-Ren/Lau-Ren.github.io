@@ -22,7 +22,7 @@ html, body, p , ul, i, a {
 }
 
 li a:hover {
-	border-bottom: thin solid gray ;
+	border-bottom: thin solid rgb(187, 187, 191) ;
 	color: rgb(187, 187, 191);
 
 }
@@ -39,7 +39,7 @@ margin-top: 2rem;
 
 }
 
-.site-index {
+.index-pull{
 	transform: rotate(90deg);
 	translate(-50%,0);
 	display: block;
@@ -47,20 +47,50 @@ margin-top: 2rem;
 	height: 2.5rem;
 	position: fixed;
 	right: 0;
-	width: 2.5rem;
+	width:4rem;
 	line-height: 2.5rem;
 	padding: 2px;
 }
 
-/*nav ul {
-	padding: 0px;
-}*/
+article.index-drawer{
+	display: none;
+	bottom: 35%;
+	position: fixed;
+	right: 25px;
+	background-color: rgb(187, 187, 191);
+	opacity: 0.95;
+	max-width: 175px;
+	z-index: 100;
 
+}
+.index-drawer ol{
+padding:10%;
+
+
+
+}
+
+.site-index:hover article.index-drawer {
+	display: block;
+}
+
+nav {
+position: relative;
+top: 0px;
+right: 0px;
+width: 100%;
+
+border-bottom: thin solid rgb(187, 187, 191);
+}
 nav ul li {
 	display: inline-block;
 	position: relative;
 }
 
+.row.page-title{
+position: inherit;
+
+}
 
 
 .profile-pic{
@@ -87,7 +117,8 @@ nav ul li {
 
 .social-links img:hover {
 
-background-color: rgb(213, 242, 219);
+background-color: rgb(187, 187, 191);
+
 }
 
 
@@ -130,16 +161,14 @@ footer ul li {
 }
 
 .flex-item {
-  background: gray;
+	border-top: black;
   padding: 5px;
   width: 200px;
   height: 150px;
   margin-top: 10px;
   
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
+
+ 
   text-align: center;
 }
 
