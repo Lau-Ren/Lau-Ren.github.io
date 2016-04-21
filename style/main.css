@@ -75,7 +75,9 @@ article.index-drawer{
 .index-drawer ol{
 padding:10%;
 
-
+}
+.index-drawer li{
+margin:0px;
 
 }
 
